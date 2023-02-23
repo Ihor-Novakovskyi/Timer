@@ -110,3 +110,7 @@ class Timer extends Component {
 }
 
 
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+        <Timer secondsValue={0} minutesValue={0}/>
+    );  
